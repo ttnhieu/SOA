@@ -10,7 +10,6 @@ body {
 }
 
 .v-application {
-  // background: rgb(207 203 203);
   color: var(--text-color);
 }
 
@@ -19,9 +18,4 @@ body {
 .v-card--variant-elevated,
 .v-card--variant-flat {
   color: inherit;
-}
-
-.v-btn--size-default {
-  // min-width: $btnMinWidth;
-  // height: $btnHeight;
 }
