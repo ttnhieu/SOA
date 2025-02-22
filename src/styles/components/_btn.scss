@@ -1,0 +1,8 @@
+.btn-default {
+  border: 1px solid rgb(var(--v-border-color));
+}
+
+.btn--size-default {
+  min-width: $btnMinWidth;
+  height: $btnHeight;
+}

@@ -1,15 +1,12 @@
-/**
- * plugins/index.ts
- *
- * Automatically included in `./src/main.ts`
- */
+import vuetify from "./vuetify";
+import { register } from "swiper/element/bundle";
+import { i18n } from "./i18n";
 
-// Plugins
-import vuetify from './vuetify'
+import type { App } from "vue";
 
-// Types
-import type { App } from 'vue'
+export function registerPlugins(app: App) {
+  app.use(vuetify);
+  app.use(i18n);
 
-export function registerPlugins (app: App) {
-  app.use(vuetify)
+  register();
 }

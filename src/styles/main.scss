@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./fonts/index.scss";
+@import "./animations";
+@import "./plugins/index.scss";
+@import "./components/index.scss";
+@import "./pages/index.scss";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.v-application {
+  // background: rgb(207 203 203);
+  color: var(--text-color);
+}
+
+.v-btn--variant-elevated,
+.v-btn--variant-flat,
+.v-card--variant-elevated,
+.v-card--variant-flat {
+  color: inherit;
+}
+
+.v-btn--size-default {
+  // min-width: $btnMinWidth;
+  // height: $btnHeight;
+}

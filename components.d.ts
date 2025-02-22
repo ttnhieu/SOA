@@ -7,6 +7,26 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    2: typeof import('./src/components/sections/BannerComponent copy 2.vue')['default']
+    3: typeof import('./src/components/sections/BannerComponent copy 3.vue')['default']
+    4: typeof import('./src/components/sections/BannerComponent copy 4.vue')['default']
+    5: typeof import('./src/components/sections/BannerComponent copy 5.vue')['default']
+    6: typeof import('./src/components/sections/BannerComponent copy 6.vue')['default']
+    7: typeof import('./src/components/sections/BannerComponent copy 7.vue')['default']
+    ActivitiesComponent: typeof import('./src/components/sections/ActivitiesComponent.vue')['default']
+    AdventureComponent: typeof import('./src/components/sections/AdventureComponent.vue')['default']
+    BannerComponent: typeof import('./src/components/sections/BannerComponent.vue')['default']
+    CalendarComponent: typeof import('./src/components/common/CalendarComponent.vue')['default']
+    CardComponent: typeof import('./src/components/common/CardComponent.vue')['default']
+    ExperiencesComponent: typeof import('./src/components/sections/ExperiencesComponent.vue')['default']
+    ExploreBasicComponent: typeof import('./src/components/sections/ExploreBasicComponent.vue')['default']
+    ExploreMoreComponent: typeof import('./src/components/sections/ExploreMoreComponent.vue')['default']
+    FooterComponent: typeof import('./src/components/FooterComponent.vue')['default']
+    FormComponent: typeof import('./src/components/common/FormComponent.vue')['default']
+    HeaderComponent: typeof import('./src/components/HeaderComponent.vue')['default']
+    MapComponent: typeof import('./src/components/common/MapComponent.vue')['default']
+    ScheduleComponent: typeof import('./src/components/sections/ScheduleComponent.vue')['default']
+    SocialMediaComponent: typeof import('./src/components/sections/SocialMediaComponent.vue')['default']
+    TextEditorComponent: typeof import('./src/components/common/TextEditorComponent.vue')['default']
   }
 }

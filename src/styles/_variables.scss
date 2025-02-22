@@ -1,0 +1,20 @@
+$btnMinWidth: 170px;
+$btnHeight: 40px;
+$bgHeader: rgba(86, 44, 44, 0.7);
+
+:root {
+  --text-color: #562c2c;
+}
+
+// Datepicker Variables
+.dp__theme_light {
+  --dp-menu-border-color: rgba(86, 44, 44, 0.3);
+  --dp-border-radius: 15px;
+  --dp-cell-border-radius: 6px;
+  --dp-menu-padding: 15px 20px;
+  --dp-primary-color: #fff4f1;
+  --dp-primary-text-color: #f2542d;
+  --dp-highlight-color: #fff;
+  --dp-border-color: transition;
+  --dp-text-color: #562c2c;
+}
